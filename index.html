@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Fatihah Audio Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <header class="now-playing">Al Fatihah Ayat x dari y</header> 
+  <div class="player">
+		<div class="track-art"></div>
+		<div class="details">
+		  <div class="judul">Bacaan:</div>
+		  <div class="track-name">Track Name</div>
+		  <div class="judul">Terjemahan:</div>
+		  <div class="track-artist">Track Artist</div>
+		</div>
+		<div class="audio-player">
+			<div class="buttons">
+			  <div class="prev-track" onclick="prevTrack()">|&lt;</div>
+			  <div class="playpause-track" onclick="playpauseTrack()">Play</div>
+			  <div class="next-track" onclick="nextTrack()">&gt;|</div>
+			</div>
+			<div class="slider_container">
+			  <div class="current-time">00:00</div>
+			  <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+			  <div class="total-duration">00:00</div>
+			</div>
+			<div class="slider_container">
+			  Volume (min)&nbsp;
+			  <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+			  (max)
+			</div>
+		</div>	
+  </div>  
+  <footer>
+		<p><a href="https://tisna-rudi.github.com/">Al Fatihah Audio Player</a></p>
+  </footer>
+  <script src="main.js"></script>
+</body></html>
