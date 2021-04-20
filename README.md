@@ -2,7 +2,13 @@
 Al Fatihah verse by verse audio player. HTML CSS JavaScript.
 ## Preview
 ![Alt text](images/laptop-view.jpg "Laptop view")
+
 ![Alt text](images/mobile-view.jpg " Mobile view")
+
+## Demo
+
+https://tisnarudi.github.io/Al-Fatihah-Audio-Player/
+
 ## Credits
 https://github.com/sayantanm19/js-music-player
 
