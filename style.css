@@ -19,8 +19,8 @@ box-sizing: border-box;
 }
 
 body {
-font-family: Roboto, Helvetica, Arial, sans-serif;
-font-size: calc(0.125vw + 1rem);
+font-family: Georgia, Serif;
+font-size: calc(0.25vw + 1rem);
 line-height: 1.6;
 min-height: 100vh;
 margin: 0;
@@ -60,26 +60,22 @@ background-position: right top;
 display:block;
 width:100%;
 color:#fff;
-font-size:1.25em;
-padding:.5em 0;
+padding:1.5em 0;
 text-align:center;
 }
 
 .track-name {
-font-size: 1.125rem;
 margin:.5em 0;
 color:#444;
 }
 
 .track-artist {
-font-size:1.125em;	
 padding:.5em 0;
 color:#444;
 }
 
 .judul {
 background-color:rgba(34,126,34,1);
-font-size:1.125em;
 color:white;
 padding:.125em .5em;		
 }
@@ -103,7 +99,6 @@ cursor:pointer;
 padding: 0.25em .725em;
 margin-top:.5em;
 opacity: 1.0;
-font-size:1.25em;
 border:1px solid rgba(34,126,34,1);
 background-color:rgba(168,251,60,1);
 font-weight:500;
@@ -157,35 +152,6 @@ width: 30%;
 
 .current-time, .total-duration {
 padding: 10px;
-}
-
-footer {
-display:block;
-width:100%;
-text-align:center;
-margin-top: auto;
-}
-
-footer a:link, footer a:active, footer a:visited {
-color:#444;
-text-decoration:none;
-}
-
-footer a:hover {
-text-decoration:underline;
-}
-
-.preload-images {
-visibility:hidden;
-width:0;
-height:0;
-background: url(images/ayat-1.png),
-			url(images/ayat-2.png),
-			url(images/ayat-3.png),
-			url(images/ayat-4.png),
-			url(images/ayat-5.png),
-			url(images/ayat-6.png),
-			url(images/ayat-7.png);
 }
 
 @media screen and (max-width:768px) {
