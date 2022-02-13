@@ -29,7 +29,7 @@ let track_list = [
     path: "audio/001001.mp3"
   },
   {
-    name: "al-ḥamdu lillāhi rabbil-'ālamīn",
+    name: "al-ḥamdu lillāhi rabbil-‘ālamīn",
     artist: "Segala puji bagi Allah, Tuhan seluruh alam",
     image: "images/ayat-2.png",
     path: "audio/001002.mp3"
